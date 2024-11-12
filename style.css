@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
 } 
 .logo img{
   margin-top: -6rem;
-  width: 20rem;
+  width: 25rem;
 }
 
 
@@ -75,14 +75,14 @@ html::-webkit-scrollbar-thumb {
     font-family:'nunito',sans-serif;
     font-size: 2rem;
     margin-right: 6rem;
-    color: #f2f2f2;
+    color: #F2EEE9;
     font-weight: bold;
   
 }
 
 .navbar a:hover {
-  color: #f2f2f2;
-  border-bottom: 0.1em solid #f2f2f2;
+  color: #F2EEE9;
+  border-bottom: 0.1em solid #F2EEE9;
   padding-bottom: 0.4em;
 }
 .icon i {
@@ -101,7 +101,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(background/background\ 3.png) no-repeat;
+  background: url(background/background\ main\ 4.png) no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover ;
@@ -121,8 +121,8 @@ html::-webkit-scrollbar-thumb {
   font-weight: 500;
   margin-bottom: 2rem;
   line-height: 7rem;
-  color: #f2f2f2;
-  text-shadow:0px 1px 1px #f2f2f2 ;
+  color: #F2EEE9;
+  text-shadow:0px 1px 1px #F2EEE9 ;
 
 }
 .homeconteudo p{
@@ -131,7 +131,7 @@ html::-webkit-scrollbar-thumb {
   font-size: 1.8rem;
   line-height: 2rem;
   margin-bottom: 2rem;
-  color: #f2f2f2;
+  color: #F2EEE9;
 }
 .home-btn{
   height: 3rem;
@@ -141,8 +141,8 @@ html::-webkit-scrollbar-thumb {
   font-size: 2rem;
   font-family: 'nunito',sans-serif;
   font-weight:bold;
-  background-color: #bf2121;
-  color: white;
+  background-color:#F2EEE9;
+  color: #BF2424;
   border-radius: .7rem;
   padding: .7rem 2.4rem;
   cursor: pointer;
@@ -358,10 +358,10 @@ section{
   
   
   .header .logo{
-    margin-top: 2rem;
+    margin-top: -6rem;
   }
   .header .logo img{
-    width: 15rem;
+    width: 22rem;
   }
   
   .header .navbar{
@@ -389,13 +389,16 @@ section{
     margin-right: 5rem;
   
   }
+  
+   
   .home{
-    background: url(background/background\ 3.png);
+    background: url(background/backgroundresponsive\ 12.png);
 
   }
   .homeconteudo{
     margin-left: 0;
-    width:80vh;
+    width:58vh;
+    text-align: center;
 
 
 }
@@ -411,6 +414,12 @@ section{
   }
   .header .logo{
     margin-top: 3rem;
+  }
+  .home{
+    background-image: url(background/backgroundresponsive\ 11.png);
+  }
+  .homeconteudo{
+    width: 52vh;
   }
   
   .siga{
