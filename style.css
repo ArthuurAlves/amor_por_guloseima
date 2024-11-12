@@ -412,6 +412,7 @@ section{
   .header .logo{
     margin-top: 3rem;
   }
+  
   .siga{
     display: block;
     align-items: center;
@@ -429,8 +430,10 @@ section{
     justify-content: center;
     
   }
-
-  .footer .share{
-    margin-left: 10rem;
-  }
+.footer{
+  background-image: url(background/footer\ background\ reponsive.png);
+}
+.f-content img{
+  margin-left: 2rem;
+}
 }
