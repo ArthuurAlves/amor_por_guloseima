@@ -266,6 +266,7 @@ section{
 
 /*footer star*/
 .footer{
+  background-image: url(background/footer\ background\ 2.png);
   background-size: cover;
   background-position: center center;
   background-color: #F2EEE9;
@@ -276,32 +277,32 @@ section{
   margin-top: 10rem;
   justify-content: space-around;
   margin-inline: 45rem;
-
   display: flex;
-  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+
   gap: 1.5rem;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
+
 }
  .f-mainbox{
   
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  
 
 }
-
  .f-content img{
-  width: 35rem;
+  margin-left: 1rem;
+  width: 32rem;
  
 }
 
 .f-box2{
-  margin-top: 7.7rem;
+  margin-top: 4.8rem;
 }
 .f-box2 h3{
   font-family: 'nunito',sans-serif;
-  font-weight: bold;
-  font-size: 3.5rem;
+  font-weight:500;
+  font-size: 2.8rem;
   color:#590A27;
   padding: 1.5rem 0;
 
@@ -309,7 +310,7 @@ section{
 }
 .f-box2 a{
   display: block;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: 'nunito',sans-serif;
   color:#1b1722;
   padding: 1.5rem 0rem;
@@ -328,20 +329,7 @@ section{
   padding: 1rem 0;
   text-align: center;
 }
-.footer .share a{
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 3rem;
-  color: #f2f2f2;
-  background: #bf2121;
-  margin: 0.3rem;
-  border-radius: 50%;
-}
-.footer .share a:hover{
-  background: #f2f2f2;
-  color: #bf2121;
-}
+
 /*footer end*/
 
 
