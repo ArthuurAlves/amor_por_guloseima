@@ -376,7 +376,7 @@ section{
   }
   
   .header .navbar{
-      position: absolute;
+    position: fixed;
       top: 13rem;
       right: -100%;
       width: 25rem;
