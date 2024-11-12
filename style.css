@@ -122,7 +122,7 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 2rem;
   line-height: 7rem;
   color: #F2EEE9;
-  text-shadow:0px 1px 1px #F2EEE9 ;
+  text-shadow:0px 4px 4px rgba(000,000,000,0.25);
 
 }
 .homeconteudo p{
@@ -146,6 +146,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: .7rem;
   padding: .7rem 2.4rem;
   cursor: pointer;
+  box-shadow: 0px 3px 3px rgba(000,000,000,0.25);
   
 }
 .home-btn button:hover{
