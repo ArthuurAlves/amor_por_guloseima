@@ -20,7 +20,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+  
   transition: 0.2s linear;
 }
 html {
@@ -208,6 +208,8 @@ section{
   margin-top: 2rem;
 }
  .p-pedido button{
+  font-family: 'nunito';
+  font-weight: bold;
   font-size: 1.8rem;
   background-color: #bf2121;
   color: white;
@@ -218,12 +220,46 @@ section{
  .p-pedido button:hover{
   font-size: 2rem;
 }
+
 /*main end*/
+.siga{
+
+  margin-block: 4rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'nunito',sans-serif;
+
+}
+.siga p{
+  font-size: 3rem;
+  color: #bf2424;
+}
+.siga a{
+  margin-left: 2rem;
+  
+  
+}
+.siga button{
+  
+  color: #BF2424;
+  background-color: #F2EEE9;
+  font-size: 2.3rem;
+  width: 27rem;
+  height: 5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.siga button:hover{
+  font-size: 2.5rem;
+}
+
+
 /*footer star*/
 .footer{
   background-size: cover;
   background-position: center center;
-  background-color: #f2f2f2;
+  background-color: #F2EEE9;
   
 
 }
@@ -257,7 +293,7 @@ section{
   font-family: 'nunito',sans-serif;
   font-weight: bold;
   font-size: 3.5rem;
-  color: #1b1722;
+  color:#590A27;
   padding: 1.5rem 0;
 
 
