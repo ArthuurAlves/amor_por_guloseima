@@ -343,12 +343,22 @@ section{
   .header{
       padding: 1.3rem 3rem;
   }
-  .footer .f-box{
-    margin-inline: 4rem;
-  }
- .footer .share{
-  margin-right: 9rem;
+ .home{
+  background-image: url(background/background\ main\ 4.png);
  }
+ .homeconteudo{
+  width: 72vh;
+ }
+ .footer{
+  background-image: url(background/footer\ background\ reponsive.png);
+ }
+  .footer .f-box{
+    margin-inline: 5rem;
+  }
+  .footer .f-content img{
+   margin-left: 4.5rem;
+  }
+ 
 }
 
 @media (max-width:768px) {
@@ -402,10 +412,29 @@ section{
 
 
 }
-
+.siga{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+  margin-left: 12.5rem;
+  margin-bottom: -2rem;
+}
+.siga div{
+  margin-left: 14rem;
+}
+.siga button{
+  margin-top: 2.5rem;
+}
+.footer{
+  background-image: url(background/footer\ background\ reponsive.png);
+}
 .footer .f-box{
   
   margin-inline: 4rem;
+}
+.footer .f-content img{
+  margin-left: 2.5rem;
 }
 }
 @media (max-width:600px){
