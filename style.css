@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'nunito';
+  src: url(fontes/Nunito/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:'pacifico' ;
+  src: url(fontes/Pacifico/Pacifico-Regular.ttf);
+}
+
+:root{
+  --swiper-theme-color:#BF2121
+
+}
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7em;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #f2f2f2;
+  border-radius: 5rem;
+}
+/*header start*/
+.header {
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color:transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 7%;
+  z-index: 999;
+}
+
+.block-logo {
+  margin-top: 8rem;
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  margin-top: -3.5rem;
+    height: 4rem;
+    margin-bottom: 0.6rem;
+} 
+.logo img{
+  margin-top: -6rem;
+  width: 20rem;
+}
+
+
+
+.navbar a {
+    font-family:'nunito',sans-serif;
+    font-size: 2rem;
+    margin-right: 6rem;
+    color: #f2f2f2;
+    font-weight: bold;
+  
+}
+
+.navbar a:hover {
+  color: #f2f2f2;
+  border-bottom: 0.1em solid #f2f2f2;
+  padding-bottom: 0.4em;
+}
+.icon i {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #f2f2f2;
+    cursor: pointer;
+
+}
+#menu-bar{
+    display: none;
+}
+/*header end*/
+/*main star*/
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(background/background\ 3.png) no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center center;
+
+
+}
+.homeconteudo{
+  width: 50%;
+  float:left;
+  text-align: center;
+  padding: 4rem;
+}
+.homeconteudo h2{
+  font-family: 'pacifico';
+  font-size: 7rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 7rem;
+  color: #f2f2f2;
+  text-shadow:0px 1px 1px #f2f2f2 ;
+
+}
+.homeconteudo p{
+  font-family: 'nunito',sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  color: #f2f2f2;
+}
+.home-btn{
+  height: 3rem;
+
+}
+.home-btn button{
+  font-size: 2rem;
+  font-family: 'nunito',sans-serif;
+  font-weight:bold;
+  background-color: #bf2121;
+  color: white;
+  border-radius: .7rem;
+  padding: .7rem 2.4rem;
+  cursor: pointer;
+  
+}
+.home-btn button:hover{
+  font-size: 2.2rem;
+
+}
+section{
+  padding: 2rem 7%;
+}
+.p-header{
+  font-family: 'nunito',sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.6rem;
+  color: #1b1722;
+}
+.produto .p-row{
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  
+}
+.produto .p-row .box{
+  font-family: 'nunito',sans-serif;
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  background-color: #f2f2f2;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  border-radius: 3rem;
+  margin-right: 3rem;
+  box-shadow: 1px 1px 1px 1px #00000013;
+
+}
+.produto .p-row .img img{
+  height: 100%;
+  width: 100%;
+}
+.produto .p-row .img img:hover{
+ transform: scale(1.1);
+}
+ .p-cont{
+  margin-bottom: 4rem;
+}
+ .p-cont h3{
+  
+  font-size: 4rem;
+  color: #1b1722;
+}
+ .p-cont p{
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #1b1722
+}
+ .p-pedido{
+  height: 3rem;
+  margin-top: 2rem;
+}
+ .p-pedido button{
+  font-size: 1.8rem;
+  background-color: #bf2121;
+  color: white;
+  border-radius: .7rem;
+  padding: .7rem 2rem;
+  cursor: pointer;
+}
+ .p-pedido button:hover{
+  font-size: 2rem;
+}
+/*main end*/
+/*footer star*/
+.footer{
+  background-size: cover;
+  background-position: center center;
+  background-color: #f2f2f2;
+  
+
+}
+.footer .f-box{
+  margin-top: 10rem;
+  justify-content: space-around;
+  margin-inline: 45rem;
+
+  display: flex;
+  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+ .f-mainbox{
+  
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+
+ .f-content img{
+  width: 35rem;
+ 
+}
+
+.f-box2{
+  margin-top: 7.7rem;
+}
+.f-box2 h3{
+  font-family: 'nunito',sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #1b1722;
+  padding: 1.5rem 0;
+
+
+}
+.f-box2 a{
+  display: block;
+  font-size: 2rem;
+  font-family: 'nunito',sans-serif;
+  color:#1b1722;
+  padding: 1.5rem 0rem;
+  
+
+}
+.f-box2 i{
+  color: #bf2121;
+  padding-right: 1.0rem;
+}
+ .f-box2 a:hover i{
+  padding-right: 2rem;
+
+}
+.footer .share{
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer .share a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  color: #f2f2f2;
+  background: #bf2121;
+  margin: 0.3rem;
+  border-radius: 50%;
+}
+.footer .share a:hover{
+  background: #f2f2f2;
+  color: #bf2121;
+}
+/*footer end*/
+
+
+
+
+/* responsividade do site*/
+@media (max-width:991px){
+  html{
+      font-size: 55%;
+  }
+  .header{
+      padding: 1.3rem 3rem;
+  }
+  .footer .f-box{
+    margin-inline: 4rem;
+  }
+ .footer .share{
+  margin-right: 9rem;
+ }
+}
+
+@media (max-width:768px) {
+  #menu-bar{
+    display: inline-block;
+  }
+  
+  
+  .header .logo{
+    margin-top: 2rem;
+  }
+  .header .logo img{
+    width: 15rem;
+  }
+  
+  .header .navbar{
+      position: absolute;
+      top: 13rem;
+      right: -100%;
+      width: 25rem;
+      height: 30vh;
+  }
+ 
+  .header .navbar.active{
+      right: -10rem;
+      
+  }
+  .header .navbar a{
+    font-family: 'nunito',sans-serif;
+      display: block;
+      font-size: 2rem;
+      color: #f2f2f2;
+      margin: 1.5rem;
+      margin-block: 3rem;
+  }
+  .header .icon{
+    margin-top: 7rem;
+    margin-right: 5rem;
+  
+  }
+  .home{
+    background: url(background/background\ 3.png);
+
+  }
+  .homeconteudo{
+    margin-left: 0;
+    width:80vh;
+
+
+}
+.footer .f-box{
+  
+  margin-inline: 4rem;
+}
+}
+@media (max-width:600px){
+  html{
+    font-size: 50%;
+  }
+  .header .logo{
+    margin-top: 3rem;
+  }
+  .footer .share{
+    margin-left: 10rem;
+  }
+}
