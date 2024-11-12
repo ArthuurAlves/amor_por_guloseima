@@ -362,6 +362,7 @@ section{
  
 }
 
+
 @media (max-width:768px) {
   #menu-bar{
     display: inline-block;
@@ -475,4 +476,46 @@ section{
 .f-content img{
   margin-left: 2rem;
 }
+}
+@media (max-width:460px){
+  .header .logo{
+    margin-top: -2rem;
+    margin-left: -5rem;
+  }
+  .home{
+    background-image: url(background/backgroundresponsive\ 16.png);
+  }
+  .icon i {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #F2EEE9;
+    cursor: pointer;
+
+}
+  .siga{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+  .siga p{
+    text-align: center;
+    margin-right: 8rem;
+  }
+  .siga div{
+    margin-left: 3.5rem;
+  }
+  .footer{
+    background-image: url(background/footer\ background\ reponsive.png);
+  }
+  
+  .footer .f-content img{
+    margin-left: -1.5rem;
+    width: 26rem;
+
+  }
+  .footer .f-box2 h3{
+    text-align: center;
+  }
 }
