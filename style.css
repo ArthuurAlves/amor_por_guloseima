@@ -88,7 +88,7 @@ html::-webkit-scrollbar-thumb {
 .icon i {
     font-size: 2rem;
     margin-right: 2rem;
-    color: #f2f2f2;
+    color: #590A27;
     cursor: pointer;
 
 }
@@ -174,7 +174,7 @@ section{
   display: flex;
   flex-direction:column;
   width: 50%;
-  background-color: #f2f2f2;
+  background-color: #F2EEE9;
   align-items: center;
   text-align: center;
   padding: 2rem;
@@ -197,12 +197,12 @@ section{
  .p-cont h3{
   
   font-size: 4rem;
-  color: #1b1722;
+  color: #590A27;
 }
  .p-cont p{
   font-size: 1.5rem;
   line-height: 1.6rem;
-  color: #1b1722
+  color: #590A27
 }
  .p-pedido{
   height: 3rem;
