@@ -65,8 +65,8 @@ html::-webkit-scrollbar-thumb {
     margin-bottom: 0.6rem;
 } 
 .logo img{
-  margin-top: -6rem;
-  width: 25rem;
+  margin-top: -9rem;
+  width: 34rem;
 }
 
 
@@ -113,6 +113,8 @@ html::-webkit-scrollbar-thumb {
   width: 50%;
   float:left;
   text-align: center;
+  margin-top: 8rem;
+  margin-left: 10rem;
   padding: 4rem;
 }
 .homeconteudo h2{
@@ -138,7 +140,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 .home-btn button{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'nunito',sans-serif;
   font-weight:bold;
   background-color:#F2EEE9;
@@ -293,7 +295,7 @@ section{
 }
  .f-content img{
   margin-left: -1rem;
-  width: 32rem;
+  width: 35rem;
  
 }
 
@@ -303,7 +305,7 @@ section{
 .f-box2 h3{
   font-family: 'nunito',sans-serif;
   font-weight:500;
-  font-size: 2.8rem;
+  font-size: 3rem;
   color:#590A27;
   padding: 1.5rem 0;
 
@@ -327,10 +329,7 @@ section{
   padding-right: 2rem;
 
 }
-.footer .share{
-  padding: 1rem 0;
-  text-align: center;
-}
+
 
 /*footer end*/
 
@@ -338,6 +337,68 @@ section{
 
 
 /* responsividade do site*/
+
+/*Desktops*/
+@media (max-width:1440px){
+  html{
+    font-size: 55%;
+  }
+  .header .logo img{
+    width: 33rem;
+  }
+  .homeconteudo{
+    margin-top: 9rem;
+    margin-left: 9rem;
+  }
+  .homeconteudo h2{
+    font-size: 6rem;
+  }
+  .footer .f-content img{
+    margin-left: -8rem;
+  }
+
+}
+
+
+@media (max-width:1280px){
+  html{
+    font-size: 55%;
+  }
+  .header .logo{
+    margin-top: -4rem;
+  }
+  .header .logo img{
+    
+    width: 33rem;
+  }
+  .home{
+    background-image: url(background/background\ main\ 4.png);
+  }
+  .homeconteudo{
+    margin-top: 8rem;
+    margin-left: 15rem;
+  }
+.homeconteudo h2{
+  font-size: 5rem;
+  
+}
+.homeconteudo p{
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+.home-btn button{
+  font-size:2.5rem;
+}
+.footer .f-content img{
+  width: 35rem;
+  margin-left: -12rem;
+}
+.footer .f-box a{
+  font-size: 1.8rem;
+}
+
+
+}
 @media (max-width:991px){
   html{
       font-size: 55%;
@@ -362,6 +423,64 @@ section{
   }
  
 }
+@media (max-width:884px){
+  .home{
+    background-image: url(background/background\ main\ 4.png);
+  }
+  .homeconteudo{
+    width: 40vh;
+  }
+  .homeconteudo h2{
+    font-size: 6rem;
+  }
+  .footer .f-content img{
+    margin-left: -1.5rem;
+  }
+}
+
+@media (max-width:834px){
+  .home{
+    background-image: url(background/backgroundresponsivetablet\ 2.png);
+  }
+  .homeconteudo{
+    margin-left: -5rem;
+  }
+  .siga p{
+    font-size: 2.5rem;
+  }
+  .footer{
+    background-image: url(background/footer\ background\ 2.png);
+  }
+  
+  .footer .f-box2 h3{
+    font-size: 3.5rem;
+  }
+  .footer .f-box2 a{
+    font-size: 2.2rem;
+  }
+  .footer .f-content img{
+    margin-left: 8rem;
+  }
+}
+@media (max-width:800px){
+  
+  .home{
+    background-image: url(background/backgroundresponsivetablet\ 2.png);
+  }
+  .homeconteudo{
+    margin-left: -5rem;
+  }
+  .homeconteudo h2{
+    font-size: 5rem;
+  }
+  .homeconteudo p{
+    font-size: 2.5rem;
+  }
+  .home-btn button{
+    font-size: 3.5rem;
+
+  }
+  }
 
 
 @media (max-width:768px) {
@@ -371,10 +490,10 @@ section{
   
   
   .header .logo{
-    margin-top: -6rem;
+    margin-top: -1rem;
   }
   .header .logo img{
-    width: 22rem;
+    width:33rem;
   }
   
   .header .navbar{
@@ -382,7 +501,6 @@ section{
       top: 13rem;
       right: -100%;
       width: 25rem;
-      height: 30vh;
   }
  
   .header .navbar.active{
@@ -402,43 +520,65 @@ section{
     margin-right: 5rem;
   
   }
+  .icon i{
+    font-size: 3rem;
+    color: #F2EEE9;
+  }
   
    
   .home{
-    background: url(background/backgroundresponsive\ 12.png);
+    background: url(background/background\ main\ 4.png);
 
   }
   .homeconteudo{
+    align-items: center;
+    justify-content: center;
     margin-left: 0;
-    width:58vh;
+    width:100vh;
     text-align: center;
 
 
+}
+.home-btn button{
+  font-size: 3rem;
 }
 .siga{
   display: block;
   align-items: center;
   justify-content: center;
+
+}
+.siga p{
+  font-size: 3rem;
   margin-top: -1rem;
   margin-left: 12.5rem;
-  margin-bottom: -2rem;
+  margin-bottom: 1.5rem;
 }
 .siga div{
-  margin-left: 14rem;
+  margin-top: 2.5rem;
+
+  margin-left: 27.5rem;
 }
 .siga button{
-  margin-top: 2.5rem;
+  font-size: 2.5rem;
 }
 .footer{
-  background-image: url(background/footer\ background\ reponsive.png);
+  background-image: url(background/footer\ background\ 2.png);
 }
 .footer .f-box{
   
   margin-inline: 4rem;
 }
 .footer .f-content img{
-  margin-left: 2.5rem;
+  margin-left: 8rem;
 }
+.footer .f-box2 h3{
+  font-size: 3.5rem;
+}
+.footer .f-box2 a{
+  font-size: 2.5rem;
+}
+
 }
 @media (max-width:600px){
   html{
@@ -518,8 +658,42 @@ section{
 
   }
   .footer .f-box2 h3{
-    text-align: center;
+    text-align: start;
   }
+
+}
+@media (max-width:440px){
+  .header .logo{
+    margin-top: 3rem;
+  }
+  .icon i {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    color: #F2EEE9;
+    cursor: pointer;
+
+}
+.homeconteudo h2{
+  font-size: 5.5rem;
+}
+.homeconteudo p{
+  font-size: 2rem;
+}
+.home-btn button{
+  font-size: 3rem;
+}
+.siga p{
+  margin-left: -1rem;
+}
+.siga div{
+  margin-left: 2.5rem;
+}
+.footer .f-box2 h3{
+  font-size: 3rem;
+}
+.footer .f-box2 a{
+  font-size: 1.8rem;
+}
 
 }
 /* iPhone 13 Pro Max, iPhone 14 Pro ,Galaxy Note20 Ultra, Galaxy S24, Galaxy S24 ULTRA */
@@ -548,7 +722,7 @@ section{
 }
 .siga p{
   text-align: center;
-  margin-right: 8rem;
+  margin-left: -2rem;
 }
 .siga div{
   margin-left: 1.5rem;
@@ -571,12 +745,12 @@ background-image: url(background/footer\ background\ reponsive.png);
 
 @media (max-width:414px){
   .header .logo{
-    margin-top: -5rem;
+    margin-top: 2rem;
     margin-left: -5rem;
    
   }
   .header .logo img{
-    width: 20rem;
+    width: 23rem;
   }
   .icon i {
     font-size: 2rem;
@@ -594,6 +768,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 .homeconteudo p{
   font-size: 1.4rem;
 }
+.home-btn button{
+  font-size: 2.5rem;
+}
 
  
 .siga{
@@ -605,7 +782,8 @@ background-image: url(background/footer\ background\ reponsive.png);
 }
 .siga p{
   text-align: center;
-  margin-right: 8rem;
+  margin-left: -1rem;
+  
 }
 .siga div{
   margin-left: 1rem;
@@ -624,21 +802,50 @@ background-image: url(background/footer\ background\ reponsive.png);
   font-size: 1.5rem;
 } 
 }
-/* Samsung S24 ULTRA*/
-@media (max-width:384px){
+@media (max-width:393px){
+  .home-btn button{
+    font-size: 2.5rem;
+  }
   .siga div{
     margin-left: -1rem;
+  }
+}
+@media (max-width:390px){
+  .home-btn button{
+    font-size: 2.5rem;
+  }
+  .siga div{
+    margin-left: -1rem;
+  }
+}
+/* Samsung S24 ULTRA*/
+@media (max-width:384px){
+  
+  .home-btn button{
+    font-size: 2.5rem;
+  }
+  .siga p{
+    
+    font-size: 2.5rem;
+    margin-left: 0rem;
+  }
+  .siga div{
+    margin-left: -0.5rem;
+  }
+  .footer .f-box2 h3{
+    font-size: 3rem;
+    text-align: start;
   }
 }
 /* iPhone X, iPhone 13 mini */
 @media (max-width: 375px) {
     .header .logo{
-    margin-top: -5rem;
+    margin-top: 0rem;
     margin-left: -5rem;
    
   }
   .header .logo img{
-    width: 20rem;
+    width: 22rem;
   }
   .icon i {
     font-size: 2rem;
@@ -656,6 +863,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 .homeconteudo p{
   font-size: 1.4rem;
 }
+.home-btn button{
+  font-size: 2.5rem;
+}
 
  
 .siga{
@@ -667,6 +877,7 @@ background-image: url(background/footer\ background\ reponsive.png);
 }
 .siga p{
   text-align: center;
+    
   margin-right: 8rem;
 }
 .siga div{
@@ -689,7 +900,7 @@ background-image: url(background/footer\ background\ reponsive.png);
 /*iPhone 12 mini, Xiaomi 12, Samsung S22, Samsung S22+, Samsung S22+ ULTRA, Samsung S24, Samsung A12, Samsung S21 ULTRA, Samsung Z Flip3, Samsung S20, Xiaomi 11i*/
 @media (max-width:360px){
   .header .logo{
-    margin-top: -5rem;
+    margin-top: 1rem;
     margin-left: -5rem;
    
   }
@@ -747,8 +958,8 @@ background-image: url(background/footer\ background\ reponsive.png);
 @media (max-width:320px){
 
      .header .logo{
-    margin-top: -6rem;
-    margin-left: -10rem;
+    margin-top: 0rem;
+    margin-left: -8rem;
    
    
   }
@@ -776,7 +987,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 .homeconteudo p{
   font-size: 1.3rem;
 }
-
+.home-btn button{
+  font-size: 2rem;
+}
  
 .siga{
   display: block;
