@@ -75,20 +75,20 @@ html::-webkit-scrollbar-thumb {
     font-family:'nunito',sans-serif;
     font-size: 2rem;
     margin-right: 6rem;
-    color: #F2EEE9;
+    color: #FFFFFF;
     font-weight: bold;
   
 }
 
 .navbar a:hover {
-  color: #F2EEE9;
-  border-bottom: 0.1em solid #F2EEE9;
+  color: #FFFFFF;
+  border-bottom: 0.1em solid #FFFFFF;
   padding-bottom: 0.4em;
 }
 .icon i {
     font-size: 2rem;
     margin-right: 2rem;
-    color: #590A27;
+    color: #FFFFFF;
     cursor: pointer;
 
 }
@@ -101,7 +101,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(background/main5.png) no-repeat;
+  background: url(background/main7.png) no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover ;
@@ -372,7 +372,7 @@ section{
     width: 33rem;
   }
   .home{
-    background-image: url(background/background\ main\ 4.png);
+    background-image: url(background/main7.png);
   }
   .homeconteudo{
     margin-top: 8rem;
@@ -504,14 +504,17 @@ section{
   }
  
   .header .navbar.active{
+    background-color: #BF2424;
+    margin-top: 5rem;
       right: -10rem;
+      height: 100vh;
       
   }
   .header .navbar a{
     font-family: 'nunito',sans-serif;
       display: block;
       font-size: 2rem;
-      color: #F2EEE9;
+      color: #FFFFFF;
       margin: 1.5rem;
       margin-block: 3rem;
   }
@@ -584,6 +587,10 @@ section{
   html{
     font-size: 50%;
   }
+  .header{
+    position: fixed;
+    background-color: #BF2424;
+   }
   .header .logo{
     margin-top: 3rem;
   }
@@ -593,6 +600,8 @@ section{
   .homeconteudo{
     width: 52vh;
   }
+
+ 
   
   .siga{
     display: block;
@@ -620,6 +629,9 @@ section{
 }
 /* iPhone 15, iPhone 15 Pro Max, iPhone 16 */
 @media (max-width:460px){
+  .header{
+    height: 20vh;
+  }
   .header .logo{
     margin-top: -2rem;
     margin-left: -5rem;
@@ -702,6 +714,9 @@ section{
     margin-top: -2rem;
     margin-left: -5rem;
   }
+  .header .logo img{
+    width: 22rem;
+  }
   .icon i {
     font-size: 2rem;
     margin-right: 2rem;
@@ -744,15 +759,17 @@ background-image: url(background/footer\ background\ reponsive.png);
 /* iPhone XR 2018, iPhone 11 PRO, iPhone 11 PRO MAX,  iPhone 12, iPhone 14, iPhone 14 Plus */
 
 @media (max-width:414px){
+  
   .header .logo{
     margin-top: 2rem;
     margin-left: -5rem;
    
   }
   .header .logo img{
-    width: 23rem;
+    width: 20rem;
   }
   .icon i {
+    
     font-size: 2rem;
     margin-right: 2rem;
     color: #F2EEE9;
@@ -811,6 +828,9 @@ background-image: url(background/footer\ background\ reponsive.png);
   }
 }
 @media (max-width:390px){
+  .header .logo{
+    margin-top: -2rem;
+  }
   .home-btn button{
     font-size: 2.5rem;
   }
@@ -840,12 +860,12 @@ background-image: url(background/footer\ background\ reponsive.png);
 /* iPhone X, iPhone 13 mini */
 @media (max-width: 375px) {
     .header .logo{
-    margin-top: 0rem;
+    margin-top: -2rem;
     margin-left: -5rem;
    
   }
   .header .logo img{
-    width: 22rem;
+    width: 20rem;
   }
   .icon i {
     font-size: 2rem;
@@ -900,7 +920,7 @@ background-image: url(background/footer\ background\ reponsive.png);
 /*iPhone 12 mini, Xiaomi 12, Samsung S22, Samsung S22+, Samsung S22+ ULTRA, Samsung S24, Samsung A12, Samsung S21 ULTRA, Samsung Z Flip3, Samsung S20, Xiaomi 11i*/
 @media (max-width:360px){
   .header .logo{
-    margin-top: 1rem;
+    margin-top: -2rem;
     margin-left: -5rem;
    
   }
