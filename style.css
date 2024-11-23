@@ -101,7 +101,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(background/background\ main\ 4.png) no-repeat;
+  background: url(background/main5.png) no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover ;
