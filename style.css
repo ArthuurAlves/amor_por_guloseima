@@ -220,6 +220,9 @@ section{
   padding: .7rem 2rem;
   cursor: pointer;
 }
+.p-pedido button a{
+  color: white;
+}
  .p-pedido button:hover{
   font-size: 2rem;
 }
