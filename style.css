@@ -129,7 +129,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(background/main7.png) no-repeat;
+  background: url(background/background\ main\ 4.png) no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover ;
@@ -863,9 +863,9 @@ background-image: url(background/footer\ background\ reponsive.png);
     margin-top: -2rem;
   }
   .zap{
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
+    font-size: 3.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
   }
   .zap i{
     padding: 0.7rem;
@@ -884,9 +884,9 @@ background-image: url(background/footer\ background\ reponsive.png);
     font-size: 2.5rem;
   }
   .zap{
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
+    font-size: 3.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
   }
   .zap i{
     padding: 0.7rem;
@@ -922,9 +922,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 
 }
 .zap{
-  font-size: 3rem;
-  width: 5rem;
-  height: 5rem;
+  font-size: 3.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 .zap i{
   padding: 0.7rem;
@@ -990,9 +990,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 
 }
 .zap{
-  font-size: 3rem;
-  width: 5rem;
-  height: 5rem;
+  font-size: 3.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 .zap i{
   padding: 0.7rem;
@@ -1060,9 +1060,9 @@ background-image: url(background/footer\ background\ reponsive.png);
 
 }
 .zap{
-  font-size: 3rem;
-  width: 5rem;
-  height: 5rem;
+  font-size: 3.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 .zap i{
   padding: 0.7rem;
